@@ -3,6 +3,8 @@ on:
   workflow_dispatch:
   push:
     branches: test_branch
+  pull_request:
+    branches: main
 env:
   cloud: google-clod
 jobs:
