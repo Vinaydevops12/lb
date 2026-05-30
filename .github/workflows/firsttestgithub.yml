@@ -1,0 +1,16 @@
+name: vinay first workflow
+on:
+  workflow_dispatch:
+env:
+  cloud: google-clod
+jobs:
+  greetings_jobs:
+    runs-on: ubuntu-latest
+    env:
+      Greeting: Hello
+    steps:
+      - name: "Say Hello Vinay Its Sunday"
+        run: echo "$Greeting $First_Name is using $clod"
+        env:
+          First_name: Vinay Kumar
+    
