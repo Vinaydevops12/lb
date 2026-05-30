@@ -1,6 +1,8 @@
 name: vinay first workflow
 on:
   workflow_dispatch:
+  push:
+    branches: test_branch
 env:
   cloud: google-clod
 jobs:
